@@ -16,7 +16,7 @@
     combos {
         compatible = "zmk,combos";
 
-         tab {
+        tab {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <1 2>;
         };
@@ -56,11 +56,6 @@
             key-positions = <0 1>;
         };
 
-        bt2 {
-            bindings = <&bt BT_NXT>;
-            key-positions = <8 9>;
-        };
-
         numpad- {
             bindings = <&kp MINUS>;
             key-positions = <4 14>;
@@ -91,7 +86,6 @@
             key-positions = <0 38>;
         };
     };
-
 
     macros {
         to_layer_0: to_layer_0 {
