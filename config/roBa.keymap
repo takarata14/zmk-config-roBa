@@ -16,18 +16,18 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            tab {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <1 2>;
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <3 4>;
         };
 
         muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
+            bindings = <&tog 1>;
             key-positions = <11 10>;
         };
 
@@ -39,6 +39,130 @@
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <11 12>;
+        };
+
+        astrisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <14 13>;
+        };
+
+        rayer0 {
+            bindings = <&tog 0>;
+            key-positions = <0 1>;
+        };
+
+        bt2 {
+            bindings = <&bt BT_NXT>;
+            key-positions = <8 9>;
+        };
+
+        numpad- {
+            bindings = <&kp MINUS>;
+            key-positions = <4 14>;
+        };
+
+        numpad+ {
+            bindings = <&kp PLUS>;
+            key-positions = <4 26>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <27 38>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <27 39>;
+        };
+
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <0 37>;
+        };
+
+        ctrl {
+            bindings = <&lt 1 LCTRL>;
+            key-positions = <0 38>;
+        };
+    };     tab {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <1 2>;
+        };
+
+        shift_tab {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <3 4>;
+        };
+
+        muhennkann {
+            bindings = <&tog 1>;
+            key-positions = <11 10>;
+        };
+
+        double_quotation {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <20 21>;
+        };
+
+        eq {
+            bindings = <&kp EQUAL>;
+            key-positions = <24 25>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <11 12>;
+        };
+
+        astrisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <14 13>;
+        };
+
+        rayer0 {
+            bindings = <&tog 0>;
+            key-positions = <0 1>;
+        };
+
+        bt2 {
+            bindings = <&bt BT_NXT>;
+            key-positions = <8 9>;
+        };
+
+        numpad- {
+            bindings = <&kp MINUS>;
+            key-positions = <4 14>;
+        };
+
+        numpad+ {
+            bindings = <&kp PLUS>;
+            key-positions = <4 26>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <27 38>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <27 39>;
+        };
+
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <0 37>;
+        };
+
+        ctrl {
+            bindings = <&lt 1 LCTRL>;
+            key-positions = <0 38>;
         };
     };
 
