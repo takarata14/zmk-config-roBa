@@ -31,11 +31,6 @@
             key-positions = <11 10>;
         };
 
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
         slash {
             bindings = <&kp SLASH>;
             key-positions = <11 12>;
